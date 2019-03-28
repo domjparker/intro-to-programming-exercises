@@ -4,8 +4,8 @@ lastname = "Parker"
 
 puts firstname + lastname
 
-gap = " "
-puts gap 
+line = " "
+puts line 
 
 #2
 thousands = 4893 / 1000
@@ -18,7 +18,7 @@ puts hundreds
 puts tens
 puts ones
 
-puts gap
+puts line
 
 #3
 movies = { :taxi_driver => 1976, 
@@ -33,7 +33,7 @@ puts movies[:the_piano]
 puts movies[:the_third_man]
 puts movies[:viridiana]
 
-puts gap 
+puts line 
 
 #4
 dates = [ 1976, 1994, 1993, 1949, 1961]
@@ -44,7 +44,7 @@ puts dates[2]
 puts dates[3]
 puts dates[4]
 
-puts gap 
+puts line 
 
 #5
 puts 1 * 2 * 3 * 4 * 5
@@ -52,14 +52,14 @@ puts 1 * 2 * 3 * 4 * 5 * 6
 puts 1 * 2 * 3 * 4 * 5 * 6 * 7
 puts 1 * 2 * 3 * 4 * 5 * 6 * 7 * 8
 
-puts gap
+puts line
 
 #6
 puts 1.2 * 1.2
 puts 3.44 * 3.44
 puts 5.666 * 5.666
 
-puts gap 
+puts line 
 
 #7
 puts "There is a parenthesis symbol on line 2 in the program when there should be a closed squiggly bracket."
