@@ -54,4 +54,34 @@ end
 
 add_three(9)  # puts 12 and returns 12 also.
 
+puts "Methods as Arguments -------------------------"
+
+def add(a, b)
+  a + b 
+end
+
+def subtract(a, b)
+  a - b
+end
+
+add(20, 45)
+# returns 65
+
+subtract(80, 10)
+# returns 70
+
+
+def multiply(num1, num2)
+  num1 * num2
+end
+
+multiply(add(20, 45), subtract(80, 10))
+# returns 4550
+
+add(subtract(80, 10), multiply(subtract(20, 6), add(30, 5)))  # e.g. nested method calls.
+# returns 560
+
+
+
+
 
