@@ -48,5 +48,7 @@ def some_method(number)
 end
 
 a = 5
-puts some_method(a)
+some_method(a)
 puts a
+
+
